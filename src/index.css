@@ -377,6 +377,70 @@ footer input {
   border-color: #8e793e;
 }
 
+.login-bg {
+  background-image: url('./img/furhd.jpg') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.login-input {
+  background-color: rgba(142, 121, 62, 0.3);
+  height: 50px;
+  border-radius: 25px;
+  color: #0f1823 !important;
+  padding-left: 20px;
+}
+
+input::-webkit-input-placeholder {
+  color: #545356 !important;
+  font-family: 'Work Sans', sans-serif;
+}
+
+input:-moz-placeholder {
+  color: #545356 !important;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.login-input:hover {
+  opacity: 1;
+}
+
+.login-button {
+  background: #786634;
+  height: 50px;
+  border-radius: 25px;
+  color: white !important;
+  width: 100%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+.login-button:hover {
+  background: #65562c !important;
+}
+
+.login-button:active {
+  background: #504423 !important;
+  border-style: none;
+}
+
+.forgot-pw:hover {
+  text-decoration: underline !important;
+  color: #504423 !important;
+}
+
+.login-link {
+  color: #786634;
+}
+
+.signup-input {
+  background: transparent !important;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+}
+
 @media screen and (min-width: 768px) {
   .lusso-font {
     font-size: 120px;
