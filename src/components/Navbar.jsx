@@ -47,22 +47,22 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#hr-him-her'>
+                <a className='nav-link' href='/products'>
                   SHOP
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#section-reminders'>
+                <a className='nav-link' href='/#section-reminders'>
                   REMINDERS
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#hr-reminders'>
+                <a className='nav-link' href='/#hr-reminders'>
                   ABOUT US
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#hr-founder'>
+                <a className='nav-link' href='/#hr-founder'>
                   REVIEWS
                 </a>
               </li>

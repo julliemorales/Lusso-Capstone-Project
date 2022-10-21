@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const SignUpPage = () => {
   return (
@@ -22,40 +22,48 @@ const SignUpPage = () => {
                 </div>
                 <div className='row justify-content-center'>
                   <div className='col-5'>
-                    <form>
+                    <form className='work-sans-font'>
                       <div className='form-group mt-3'>
+                        <label>Full Name</label>
                         <input
                           type='text'
                           className='form-control signup-input'
                           id='name'
-                          placeholder='Full Name'
                         />
                       </div>
                       <div className='form-group mt-3'>
+                        <label>Address</label>
                         <input
                           type='text'
                           className='form-control signup-input'
                           id='address'
-                          placeholder='Address'
                         />
                       </div>
                       <div className='form-group mt-3'>
+                        <label>Email</label>
                         <input
                           type='email'
                           className='form-control signup-input'
                           id='email'
-                          placeholder='Email'
                         />
                       </div>
                       <div className='form-group mt-3'>
+                        <label>Password</label>
                         <input
                           type='password'
                           className='form-control signup-input'
                           id='password'
-                          placeholder='Password'
                         />
                       </div>
-                      <div className='form-group mt-4'>
+                      <div className='form-group mt-3'>
+                        <label>Confirm Password</label>
+                        <input
+                          type='password'
+                          className='form-control signup-input'
+                          id='password2'
+                        />
+                      </div>
+                      <div className='form-group mt-5'>
                         <button
                           class='btn login-button work-sans-font'
                           type='submit'
@@ -64,6 +72,19 @@ const SignUpPage = () => {
                         </button>
                       </div>
                     </form>
+                    <div className='mt-5 text-center pt-5'>
+                      <p className='work-sans-font text-dark'>
+                        <span className='fw-light'>
+                          Already have an account?
+                        </span>
+                        <span> </span>
+                        <span>
+                          <Link className='text-decoration-none login-link forgot-pw'>
+                            Login Here
+                          </Link>
+                        </span>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -74,7 +74,10 @@ const LoginPage = () => {
                       <div className='col'>
                         <div>
                           <p className='work-sans-font text-dark'>
-                            Not Registered Yet?<span> </span>
+                            <span className='fw-light'>
+                              Not Registered Yet?
+                            </span>
+                            <span> </span>
                             <span>
                               <Link className='text-decoration-none login-link forgot-pw'>
                                 Create an Account
