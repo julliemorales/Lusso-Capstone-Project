@@ -9,17 +9,13 @@ const Navbar = () => {
       >
         <div className='container'>
           <Link className='centered-logo d-none d-lg-block' href='#'>
-            <img
-              className='lusso-icon'
-              src='./img/lusso.jpg'
-              alt='Lusso Icon'
-            />
+            <img className='lusso-icon' src='/img/lusso.jpg' alt='Lusso Icon' />
           </Link>
           <div>
             <Link id='logo-mobile' href='#'>
               <img
                 className='lusso-icon'
-                src='./img/lusso.jpg'
+                src='/img/lusso.jpg'
                 alt='Lusso Icon'
               />
             </Link>

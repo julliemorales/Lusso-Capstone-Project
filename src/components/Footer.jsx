@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='row my-4'>
               <div className='col-lg-4 col-md-6 mb-4 mb-md-0'>
                 <div className='d-flex align-items-center justify-content-center mb-1 mx-auto icon-footer'>
-                  <img src='./img/lusso-nobg3.png' alt='Lusso Logo' />
+                  <img src='/img/lusso-nobg3.png' alt='Lusso Logo' />
                 </div>
                 <p className='text-center work-sans-font fw-light'>
                   Lusso is a perfume and lifestyle brand that is very modern.
@@ -36,34 +36,22 @@ const Footer = () => {
                 <h5 className='text-uppercase mb-4'>Our Products</h5>
                 <ul className='list-unstyled'>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Products
-                    </Link>
+                    <Link href='#!'>Products</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Collections
-                    </Link>
+                    <Link href='#!'>Collections</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      For Him
-                    </Link>
+                    <Link href='#!'>For Him</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      For Her
-                    </Link>
+                    <Link href='#!'>For Her</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Best Sellers
-                    </Link>
+                    <Link href='#!'>Best Sellers</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Pricing List
-                    </Link>
+                    <Link href='#!'>Pricing List</Link>
                   </li>
                 </ul>
               </div>
@@ -71,29 +59,19 @@ const Footer = () => {
                 <h5 className='text-uppercase mb-4'>Maintenance</h5>
                 <ul className='list-unstyled'>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Support
-                    </Link>
+                    <Link href='#!'>Support</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Reviews
-                    </Link>
+                    <Link href='#!'>Reviews</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Contact Us
-                    </Link>
+                    <Link href='#!'>Contact Us</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Pricing List
-                    </Link>
+                    <Link href='#!'>Pricing List</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Blogs
-                    </Link>
+                    <Link href='#!'>Blogs</Link>
                   </li>
                 </ul>
               </div>
@@ -101,29 +79,19 @@ const Footer = () => {
                 <h5 className='text-uppercase mb-4'>Services</h5>
                 <ul className='list-unstyled mb-5'>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Product Update
-                    </Link>
+                    <Link href='#!'>Product Update</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Shipping
-                    </Link>
+                    <Link href='#!'>Shipping</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Terms & Conditions
-                    </Link>
+                    <Link href='#!'>Terms & Conditions</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      FAQ's
-                    </Link>
+                    <Link href='#!'>FAQ's</Link>
                   </li>
                   <li className='mb-2'>
-                    <Link href='#!'>
-                      Delivery & Return
-                    </Link>
+                    <Link href='#!'>Delivery & Return</Link>
                   </li>
                 </ul>
                 <div className='mb-4 mb-lg-0'>
