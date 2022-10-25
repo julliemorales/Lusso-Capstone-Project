@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Socials = () => {
   return (
@@ -7,19 +7,31 @@ const Socials = () => {
         <div id='social-links'>
           <ul>
             <li>
-              <Link href='https://www.facebook.com/lussoph2022' target='_blank'>
+              <a
+                href='https://www.facebook.com/lussoph2022'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <i className='ri-facebook-fill' />
-              </Link>
+              </a>
             </li>
             <li>
-              <Link href='https://www.facebook.com/lussoph2022' target='_blank'>
+              <a
+                href='https://www.facebook.com/lussoph2022'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <i className='ri-instagram-fill' />
-              </Link>
+              </a>
             </li>
             <li>
-              <Link href='https://www.facebook.com/lussoph2022' target='_blank'>
+              <a
+                href='https://www.facebook.com/lussoph2022'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <i className='ri-twitter-fill' />
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

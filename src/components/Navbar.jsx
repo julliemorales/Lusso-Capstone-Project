@@ -8,11 +8,11 @@ const Navbar = () => {
         className='navbar navbar-expand-lg navbar-light work-sans-font position-sticky top-0'
       >
         <div className='container'>
-          <Link className='centered-logo d-none d-lg-block' href='#'>
+          <Link className='centered-logo d-none d-lg-block' to='/'>
             <img className='lusso-icon' src='/img/lusso.jpg' alt='Lusso Icon' />
           </Link>
           <div>
-            <Link id='logo-mobile' href='#'>
+            <Link id='logo-mobile' to='/'>
               <img
                 className='lusso-icon'
                 src='/img/lusso.jpg'
@@ -38,32 +38,36 @@ const Navbar = () => {
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
               <li className='nav-item'>
-                <Link className='nav-link active' aria-current='page' href='#'>
+                <a
+                  href='/#section-hero'
+                  className='nav-link active'
+                  aria-current='page'
+                >
                   HOME
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <a className='nav-link' href='/products'>
-                  SHOP
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/#section-reminders'>
+                <Link to='/products' className='nav-link'>
+                  SHOP
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <a href='/#section-reminders' className='nav-link'>
                   REMINDERS
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/#hr-reminders'>
+                <a href='/#hr-reminders' className='nav-link'>
                   ABOUT US
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/#hr-founder'>
+                <a href='/#hr-founder' className='nav-link'>
                   REVIEWS
                 </a>
               </li>
               <li className='nav-item d-lg-none'>
-                <Link className='nav-link' href='#'>
+                <Link to='/' className='nav-link'>
                   <i className='ri-shopping-cart-line' />
                 </Link>
               </li>
@@ -81,7 +85,7 @@ const Navbar = () => {
             </form>
             <Link
               className='text-decoration-none text-dark px-3 fw-light d-none d-lg-block'
-              href='#'
+              to='/'
             >
               <i className='ri-shopping-cart-line' />
             </Link>
