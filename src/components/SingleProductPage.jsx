@@ -68,9 +68,6 @@ const SingleProductPage = () => {
                 Price: <span className='fw-bold fs-3'> ₱399.00</span>
               </p>
             </div>
-            <div className='work-sans-font fs-5 fw-light text-start'>
-              <p>Quantity:</p>
-            </div>
             <div className='text-center text-md-start'>
               <Link
                 className='btn button-cart work-sans-font fw-light text-white text-decoration-none mt-3 mb-5'

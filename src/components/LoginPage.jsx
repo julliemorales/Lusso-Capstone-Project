@@ -64,7 +64,7 @@ const LoginPage = () => {
                     </div>
                     <div className='form-group mt-3'>
                       <button
-                        class='btn login-button work-sans-font'
+                        className='btn login-button work-sans-font'
                         type='submit'
                       >
                         SIGN IN

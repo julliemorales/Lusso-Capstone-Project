@@ -65,7 +65,7 @@ const SignUpPage = () => {
                       </div>
                       <div className='form-group mt-5'>
                         <button
-                          class='btn login-button work-sans-font'
+                          className='btn login-button work-sans-font'
                           type='submit'
                         >
                           SIGN UP

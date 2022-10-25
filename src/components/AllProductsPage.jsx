@@ -75,7 +75,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -111,7 +111,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -147,7 +147,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -183,7 +183,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -219,7 +219,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -255,7 +255,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -291,7 +291,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -345,7 +345,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -381,7 +381,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -417,7 +417,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -453,7 +453,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -489,7 +489,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -525,7 +525,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
@@ -561,7 +561,7 @@ const AllProductsPage = () => {
                     to='/product'
                     className='btn button-link work-sans-font fw-light text-white text-decoration-none'
                   >
-                    ADD TO CART
+                    SEE MORE
                   </Link>
                 </div>
               </div>
